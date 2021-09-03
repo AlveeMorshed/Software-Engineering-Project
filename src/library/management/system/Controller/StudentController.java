@@ -10,7 +10,6 @@ import java.awt.event.ActionListener;
 import static java.awt.image.ImageObserver.ABORT;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import library.management.system.LibraryManagementSystem;
 import library.management.system.Model.BookDetailsModel;
 import library.management.system.View.BookDetailsView;
 import library.management.system.View.StudentView;
