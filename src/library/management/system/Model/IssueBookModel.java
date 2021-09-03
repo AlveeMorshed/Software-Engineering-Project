@@ -13,7 +13,6 @@ import com.toedter.calendar.JDateChooser;
 import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import library.management.system.connectDB;
 public class IssueBookModel {
     public ResultSet getBookRecord(PreparedStatement st, String shelfNo){
         try{
