@@ -12,7 +12,6 @@ package library.management.system.Model;
 import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import library.management.system.connectDB;
 public class ReturnBookModel {
     public ResultSet getBookRecord(PreparedStatement st, String shelfNo){
         try{
